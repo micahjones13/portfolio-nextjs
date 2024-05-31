@@ -1,0 +1,51 @@
+.scroller {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+  }
+  
+  .scroller-content {
+    display: inline-block;
+    animation: scroll-left 25s linear infinite;
+  }
+  .scroller-content-right {
+    display: inline-block;
+    animation: scroll-right 25s linear infinite;
+  }
+  .scroller-content:hover {
+    animation-play-state: paused;
+  }
+  .scroller-content-right:hover {
+    animation-play-state: paused;
+  }
+  
+  .skill {
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+  }
+  .skill:hover {
+    transform: scale(1.2);
+  }
+  
+  @keyframes scroll-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+    
+  @keyframes scroll-right {
+    0% {
+      transform: translateX(-50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  

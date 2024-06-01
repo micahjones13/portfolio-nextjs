@@ -1,4 +1,4 @@
-import "./scroll-list.css";
+import "./css/scroll-list.css";
 export default function ScrollList() {
   //TODO: Add more skills. Add second arr of skills - maybe like recent languages?
   const skills = [

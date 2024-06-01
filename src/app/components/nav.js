@@ -1,4 +1,6 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 export default function Header() {
   return (
     <header className="sticky top-0 z-50 border-solid border-black border-2">
@@ -7,9 +9,15 @@ export default function Header() {
           <Link href="/">IMAGE</Link>
         </div>
         <ul className="flex justify-around p-4 w-1/6">
-          <li>
-            <Link href="/">Home</Link>
-          </li>
+          {usePathname() === "/" ? (
+            <li>
+              <Link href="/about">About</Link>
+            </li>
+          ) : (
+            <li>
+              <Link href="/">Home</Link>
+            </li>
+          )}
           <li>
             <Link href="/blog">Blog</Link>
           </li>

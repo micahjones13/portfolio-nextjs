@@ -36,12 +36,9 @@ export default function Home() {
           <ScrollList />
         </section>
         <section>
-          <h2>Work</h2>
           <div className="flex flex-col items-center w-100">
+            <h1>Work</h1>
             <Work />
-          </div>
-          <div className="flex flex-col items-center w-100">
-            <Interests />
           </div>
         </section>
       </main>

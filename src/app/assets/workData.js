@@ -2,11 +2,13 @@ export const Data = [
   {
     title: "Astro UXDS",
     description:
-      " Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff Astro stuff",
-    github: "https://github.com/RocketCommunicationsInc/astro",
-    storybook:
-      "https://astro-components.netlify.app/?path=/story/astro-uxds-start-here--page",
-    website: "https://astrouxds.com",
+      "Astro UXDS is a design system that brings together UX guidelines, HTML/CSS framework, and web components to design and develop a modern, consistent user experience with a foucs on the aerospace sector. Astro UXDS includes design resources such as Figma files, case studies and a full fledged design system. It also provides developer resources such as a web component library, design tokens, and sample applications.",
+    relevantLinks: {
+      github: "https://github.com/RocketCommunicationsInc/astro",
+      storybook:
+        "https://astro-components.netlify.app/?path=/story/astro-uxds-start-here--page",
+      website: "https://astrouxds.com",
+    },
   },
 ];
 //TODO: postCSS plugin, astro in react(?) google sheets integration for feedback widget, grafana plugin

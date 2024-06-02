@@ -7,7 +7,7 @@ export default function Home() {
     <>
       <Header />
       <main className="flex min-h-screen flex-col items-center justify-between p-24">
-        <section className="border border-sky-500 p-4">
+        <section className="border border-sky-500 p-4 home-about">
           <p>
             Hey there! My name is Micah Jones and I'm a full stack web developer
             with 3+ years of experience. My last year or so of work has been

@@ -1,18 +1,43 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* styles/globals.css */
 
-/*
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+/* styles/globals.css */
 
-
-
-
-
-*/
+@import './variables.css';
 
 body {
-  margin: auto;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+  color: var(--color-text-primary);
+  background-color: var(--color-background);
+  line-height: var(--line-height);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-text-primary);
+  font-weight: var(--font-weight-bold);
+  margin-bottom: var(--space-md);
+}
+
+p {
+  color: var(--color-text-secondary);
+  margin-bottom: var(--space-md);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-link-hover);
+  text-decoration: underline;
+}
+
+.container {
+  padding: var(--space-lg);
 }

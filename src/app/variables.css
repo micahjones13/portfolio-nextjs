@@ -1,0 +1,42 @@
+/* styles/variables.css */
+
+:root {
+    /* Color Palette */
+    --color-primary: hsl(182, 21%, 33%);
+    --color-primary-light: hsl(182, 21%, 73%);
+    --color-primary-dark: hsl(182, 21%, 23%);
+    --color-secondary: hsl(182, 15%, 23%);
+    --color-background: hsl(0, 0%, 100%);
+    --color-card-background: hsl(0, 0%, 98%);
+    --color-text-primary: hsl(182, 21%, 15%);
+    --color-text-secondary: hsl(182, 15%, 33%);
+    --color-link: hsl(182, 21%, 33%);
+    --color-link-hover: hsl(182, 21%, 23%);
+    --color-border: hsl(182, 15%, 80%);
+  
+    /* Spacing */
+    --space-xs: 4px;
+    --space-sm: 8px;
+    --space-md: 16px;
+    --space-lg: 24px;
+    --space-xl: 32px;
+    --space-xxl: 48px;
+  
+    /* Typography */
+    --font-family: 'Helvetica Neue', Arial, sans-serif;
+    --font-size-base: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 24px;
+    --font-size-xl: 32px;
+    --font-size-xxl: 40px;
+    --line-height: 1.5;
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+  
+    /* Border Radius */
+    --border-radius: 8px;
+  
+    /* Shadow */
+    --box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
